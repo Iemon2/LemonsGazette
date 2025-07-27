@@ -1,0 +1,116 @@
+html, body {
+	width: 100%;
+	height: 100%;
+
+	overflow: clip;
+
+	background-color: #F4E9C2;
+}
+
+#main {
+	width: 1200px;
+	height: 100%;
+
+	margin: auto;
+
+	padding-top: 60px;
+
+	background-color: #F4E9C2; 
+}
+
+#title {
+	height: 130px;
+	width: 100%;
+}
+
+#title > div {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 500px;
+	margin: auto;
+
+	background-color: #F8F5E6;
+
+	-webkit-box-shadow: 6px 6px 0px 0px rgba(176,163,151,1);
+	-moz-box-shadow: 6px 6px 0px 0px rgba(176,163,151,1);
+	box-shadow: 6px 6px 0px 0px rgba(176,163,151,1);
+}
+
+#title > div > div{
+	margin: auto;
+	height: 100%;
+}
+
+#title > div > div > div{
+	margin: auto;
+	width: fit-content;
+	height: 100%;
+}
+
+
+#signin-holder {
+	height: 300px;
+
+	padding-top: 100px;
+	padding-bottom: 25px;
+	padding-left: 260px;
+	padding-right: 260px;
+}
+
+#signin-box {
+	height: 100%;
+	width: 100%;
+
+	background-color: #F8F5E6;
+
+	-webkit-box-shadow: 6px 6px 0px 0px rgba(176,163,151,1);
+	-moz-box-shadow: 6px 6px 0px 0px rgba(176,163,151,1);
+	box-shadow: 6px 6px 0px 0px rgba(176,163,151,1);
+}
+
+#signin-box > div {
+	height: fit-content;
+	width: fit-content;
+	margin: auto;
+}
+
+#signin-form {
+	padding: 54px;
+}
+
+#signin-form > label {
+	display: block;
+	text-align: center;
+
+	font-size: 26px;
+}
+
+#signin-form > input {
+	display: block;
+	direction: ltr;
+
+	padding: 8px;
+
+	font-size: 22px;
+
+	border: 0;
+}
+
+#button-holder {
+	height: 50px;
+}
+
+#button-holder > div {
+	margin: auto;
+	width: 150px;
+	height: 100%;
+}
+
+#enter-button {
+	width: 100%;
+	height: 100%;
+
+	font-size: 18px;
+}
+
+#enter
